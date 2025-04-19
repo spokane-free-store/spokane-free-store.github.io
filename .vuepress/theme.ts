@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://spokane-free-store.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Spokane Free Store",
+    url: "https://spokanefreestore.org",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "spokane-free-store/spokane-free-store.github.io",
 
   docsDir: "src",
 
@@ -23,58 +23,16 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Default footer",
+  footer: "&copy; 2025 Spokane Free Store",
 
   displayFooter: true,
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
-
   blog: {
-    description: "A FrontEnd programmer",
+    description: "Spokane Free Store",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      GitHub: "https://github.com/spokane-free-store",
+      Gmail: "mailto:info@spokanefreestore.org",
     },
   },
 
@@ -89,9 +47,9 @@ export default hopeTheme({
   markdown: {
     align: true,
     attrs: true,
-    codeTabs: true,
+    codeTabs: false,
     component: true,
-    demo: true,
+    demo: false,
     figure: true,
     gfm: true,
     imgLazyload: true,
@@ -99,7 +57,7 @@ export default hopeTheme({
     include: true,
     mark: true,
     plantuml: true,
-    spoiler: true,
+    spoiler: false,
     stylize: [
       {
         matcher: "Recommended",
@@ -113,8 +71,8 @@ export default hopeTheme({
         },
       },
     ],
-    sub: true,
-    sup: true,
+    sub: false,
+    sup: false,
     tabs: true,
     tasklist: true,
     vPre: true,
